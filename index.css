@@ -1,0 +1,1402 @@
+body{
+    overflow-x:hidden;
+}
+.one{
+  border: 2px solid wheat;
+  height: 60px;
+  padding-bottom: 2px;
+  background-color: wheat;
+  position:fixed;
+  width: 900px;
+  left: 8px;
+  margin-left: 300px;
+}
+.two{
+    font-size:x-large;
+    color: green;
+    font-style:normal;
+    position: relative;
+    left: 80px;
+}
+.three{
+    position: relative;
+    left: 400px;
+    font-style: normal;
+    bottom: 37px; 
+}
+.three:hover{
+    color:hotpink;
+    cursor: pointer;
+}
+.four{
+    position: relative;
+    left: 500px;
+    font-style: normal;
+    bottom: 71px;
+}
+.four:hover{
+    color:hotpink;
+    cursor: pointer;
+}
+.five{
+    position: relative;
+    left: 600px;
+    font-style: normal;
+    bottom: 105px;
+
+}
+.five:hover{
+    color:hotpink;
+    cursor: pointer;
+}
+.six{
+    position: relative;
+    left: 700px;
+    font-style: normal;
+    bottom: 141px;
+}
+.six:hover{
+    color:hotpink;
+    cursor: pointer;
+}
+.seven{
+    position: relative;
+    left: 800px;
+    font-style: normal;
+    bottom: 175px;
+}
+.seven:hover{
+    color:hotpink;
+    cursor: pointer;
+}
+.a{
+
+    border: 2px solid darkgreen;
+    height: 375px;
+    background-color: green;
+    width:900px;
+    margin-left: 300px;
+  
+} 
+.c{
+    color: indigo;
+    position: relative;
+    left: 60px;
+    margin-top: 78px;
+    font-style:normal;
+    font-size: xx-large;
+  
+  
+}
+.d{
+    color:lightcoral;
+    position: relative;
+    left: 60px;
+    font-style: normal;
+    font-size:xx-large;
+    bottom: 35px;
+   
+   
+    
+}
+.e{
+    position: relative;
+    left: 60px;
+    bottom: 20px;
+    color: white;
+ 
+
+}
+.f{
+    background-color: lightseagreen;
+    color:white;
+    position: relative;
+    bottom: 15px;
+    left: 56px;
+    border: 1px solid lightseagreen;
+    border-radius: 10px;
+    width: 116px;
+    height: 41px;
+    animation: transform 1s linear;
+    box-shadow: 1px 1px 8px gray;
+}
+.f:hover{
+    transform:translateY(2px)
+}
+   
+.g{
+    background-color: orange;
+    color: white;
+    position: relative;
+    left: 105px;
+    border-radius: 10px;
+    width: 116px;
+    height: 41px;
+    bottom: 15px;
+    border: 1px solid orange;
+    
+  
+}
+.h{
+    position: relative;
+    left: 557px;
+    bottom: 225px;
+    width: 272px;
+    
+}
+/* .wave{
+    position: relative;
+    margin-top: 30px;
+    width: 500px;
+    height: 400px;
+} */
+.me{
+    border-radius: 30px;
+    border: 2px solid whitesmoke;
+    width: 890px;
+    height: 400px;
+    background-color: white;
+    position: relative;
+    left: 312px;
+    top: 68px;
+    z-index: -1;
+
+}
+
+.pic{
+    position: relative;
+    left: 10px;
+    width: 360px;
+    height: 400px;
+    margin: 3px,5px,4px,3px;
+    padding-left: 1px;
+    padding-top: 3px;
+    z-index: -1;
+    
+}
+.main{
+    position: relative;
+    color: darkgreen;
+    left: 450px;
+    font-weight: 900;
+    bottom: 420px;
+    font-size: xx-large;
+    z-index: -1;
+}
+.underline{
+    border: 1px solid orange;
+    position: relative;
+    left: 450px;
+    bottom: 450px;
+    width: 160px;
+    height: 4px;
+    background-color: orange;
+    z-index: -1;
+}
+.myself{
+    position: relative;
+    left: 450px;
+    bottom: 440px;
+    font-size:medium;
+    color: green;
+    font-style:normal;
+    z-index: -1;
+}
+.second{
+    position: relative;
+    left: 450px;
+    bottom: 440px;
+    font-size:medium;
+    color: green;
+    font-style:normal;
+    z-index: -1;
+}
+.libraries{
+    border-radius: 26px;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    width: 417px;
+    height: 131px;
+    position:relative;
+    left: 450px;
+    bottom: 443px;
+    z-index: -1;
+
+} 
+.languages{
+    position: relative;
+    left: 21px;
+    font-weight: 900px;
+    font-size:medium;
+    color: darkgreen;
+    z-index: -1;
+}
+.horizontal{
+    width: 184px;
+    position: relative;
+    left: 115px;
+    bottom: 26px;
+    color: lightgrey;
+    z-index: -1;
+   
+    
+}
+.fa-html5{
+    position:absolute;
+    left: 30px;
+    font-size: xx-large;
+    z-index: -1;
+    color: red;
+}
+.fa-css3-alt{
+    position: absolute;
+    left: 90px;
+    font-size: xx-large;
+    z-index: -1;
+    color: red;
+
+
+}
+.fa-js{
+    position: absolute;
+    left: 150px;
+    font-size:xx-large;
+    z-index: -1;
+    color: hotpink;
+
+
+}
+.fa-github-square{
+    position: absolute;
+    color:black;
+    left: 210px;
+    font-size: xx-large;
+    z-index: -1;
+    
+}
+.fa-react{
+    position: absolute;
+    left: 270px;
+    font-size: xx-large;
+    z-index: -1;
+    color:blue;
+    
+}
+.my{
+    color: darkgreen;
+    position:relative;
+    left: 369px;
+    bottom: 402px;
+    font-size: xx-large;
+    font-weight: 500;
+    z-index: -1;
+
+}
+.below{
+    border:2px solid orange;
+    width: 171px;
+    height: 2px;
+    background-color: orange;
+    position: relative;
+    left: 369px;
+    bottom: 432px;
+    z-index: -1;
+}
+.pictures{
+    border-radius: 32px;
+    width: 889px;
+    height: 560px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-right: 1px;
+    border: 2px solid whitesmoke;
+    margin-bottom: 407px;
+
+}
+/* .html{
+    position: relative;
+    width: 300px;
+    top: 30px;
+    left: 79px;
+    height: 191px;
+    text-decoration: none;
+}
+
+.todo{
+    position: relative;
+    width: 300px;
+    height: 191px;
+    top: 30px;
+    left: 185px;
+}
+.mobile{
+    position: relative;
+    width: 300px;
+    height: 191px;
+    top: 112px;
+    left: 291px;
+} */
+.resumehead{
+    color: darkgreen;
+    font-weight: 700;
+    font-style: normal;
+    position: relative;
+    text-align: center;
+    font-size: xx-large;
+    bottom: 374px;
+    z-index: -1;
+
+}
+.bottomline{
+    border: 2px solid orange;
+    background-color: orange;
+    bottom: 400px;
+    width: 112px;
+    height: 1px;
+    position: relative;
+    left: 390px;
+}
+.education{
+    position: relative;
+    color: darkgreen;
+    left: 14px;
+    font-size: x-large;
+    font-weight: 700;
+    bottom: 431px;
+    z-index: -1;
+}
+.semiline{
+    position: relative;
+    bottom: 446px;
+    width: 550px;
+    right: 158px;
+    color: whitesmoke;
+    z-index: -1;
+}
+.dot{
+        height: 16px;
+        width: 16px;
+        background-color:lightgreen;
+        border-radius: 50%;
+        position: relative;
+        left: 9px;
+        bottom: 437px;
+        z-index: -1;
+}
+/* .vertical{
+    border-radius: 2px;
+    height: 100px;
+    color: green;
+    width: 1px;
+    border: 1px solid lightgreen;
+    top: 13px;
+    position: relative;
+    background-color: lightgreen;
+    left: 7px;
+    z-index: -1;
+}  */
+
+.college{
+    position: relative;
+    left: 46px;
+    bottom: 473px;
+    font-weight: 600;
+    font-size: large;
+    color: darkgreen;
+    z-index: -1;
+
+}
+.years{
+    border-radius: 18px;
+    border: 1px solid orange;
+    position: relative;
+    left: 449px;
+    height: 28px;
+    bottom: 520px;
+    width: 116px;
+    background-color: orange;
+    z-index: -1;
+
+}
+.year{
+    color:whitesmoke;
+    left: 472px;
+    position: relative;
+    bottom: 560px;
+    font-weight: 600;
+    z-index: -1;
+}
+.btech{
+    position: relative;
+    left: 44px;
+    bottom: 547px;
+    color: darkgreen;
+    z-index: -1;
+}
+.rightman{
+    position: relative;
+    left: 902px;
+    bottom: -898px;
+    width: 312px;
+    height: 265px;
+    z-index: -1;
+
+}
+.icons{
+    border-radius: 8px;
+    border: 1px solid whitesmoke;
+    position: relative;
+    height: 52px;
+    width: 274px;
+    left: 902px;
+    bottom: -889px;
+}
+.fa-facebook-f{
+    position: relative;
+    color: blue;
+    font-size:xx-large;
+    left: 30px;
+    margin-top: 9px;
+    z-index: -1;
+}
+.fa-instagram{
+    position: relative;
+    color: hotpink;
+    font-size:xx-large;
+    left: 50px;
+    margin-top: 9px;
+    z-index: -1;
+}
+.fa-linkedin{
+    position: relative;
+    color: darkblue;
+    font-size: xx-large;
+    left: 70px;
+    margin-top: 9px;
+    z-index: -1;
+}
+.fa-pinterest-square{
+    position: relative;
+    color:black;
+    font-size: xx-large;
+    left: 90px;
+    margin-top: 9px;
+    z-index: -1;
+
+}
+.fa-twitter-square{
+    position: relative;
+    color: skyblue;
+    font-size: xx-large;
+    left: 110px;
+    margin-top: 9px;
+    z-index: -1;
+
+}
+.peoplesay{
+    position: relative;
+    text-align: center;
+    color: darkgreen;
+    top: 935px;
+    font-size: 50px;
+    font-weight: 700;
+    z-index: -1;
+}
+.downline{
+    position: relative;
+    border-radius: 2px;
+    border: 2px solid orange;
+    width: 367px;
+    height: 2px;
+    left: 568px;
+    top: 918px;
+    background-color: orange;
+    z-index: -1;
+
+}
+.box{
+    border-radius: 10px;
+    border: 2px solid yellow;
+    width: 912px;
+    height: 400px;
+    top: 953px;
+    position: relative;
+    left: 295px;
+    z-index: -1;
+}
+.opinion{
+    position: relative;
+    left: 97px;
+    top: 30px;
+}
+.testimonal{
+    border: 2px solid lightyellow;
+    border-radius: 14px;
+    width: 910px;
+    height: 52px;
+    position: relative;
+    left: -1px;
+    top: 19px;
+    background-color: lightyellow;
+
+}
+.view{
+    position: relative;
+    font-size: larger;
+    color: orange;
+    text-align: center;
+    bottom: 38px;
+
+}
+.fa-arrow-right{
+    color: orange;
+    position: relative;
+    bottom: 76px;
+    left: 540px;
+    font-size: larger;
+    
+}
+.contact{
+    position: relative;
+    text-align: center;
+    color: darkgreen;
+    font-size:xx-large;
+    top: 954px;
+    font-weight: 700;
+    z-index: -1;
+
+}
+.belowline{
+    position: relative;
+    left: 671px;
+    top: 921px;
+    height: 4px;
+    width: 161px;
+    border-radius: 20px;
+    border:1px solid orange;
+    background-color: orange;
+    z-index: -1;
+}
+.contactme{
+    border-radius: 6px;
+    border: 3px solid whitesmoke;
+    width: 453px;
+    height:400px;
+    left: 298px;
+    position: relative;
+    top: 927px;
+    background-color: white;
+    z-index: -1;
+
+}
+.connect{
+    color: darkgreen;
+    font-size: x-large;
+    font-weight: 600;
+    position: relative;
+    left: 58px;
+    top: 59px;
+    z-index: -1;
+}
+.texts{
+    position: relative;
+    left: 58px;
+    top: 49px;
+    color: brown;
+    z-index: -1;
+}
+.fa-envelope{
+    color: black;
+    font-size: larger;
+    position: relative;
+    left: 50px;
+    top: 100px;
+}
+.pooja{
+    position: relative;
+    left: 84px;
+    color: black;
+    top: 60px;
+    font-size: medium;
+}
+.fa-phone-square-alt{
+    color: black;
+    font-size: larger;
+    position: relative;
+    left: 53px;
+    top: 70px;
+
+}
+.number{
+    position: relative;
+    left: 84px;
+    color: black;
+    font-size: medium;
+    top: 30px;
+
+}
+.fa-map-marker-alt{
+    color: black;
+    font-size: larger;
+    position: relative;
+    left: 53px;
+    top: 40px; 
+
+}
+.location{
+    position: relative;
+    left: 85px;
+    color: black;
+    font-size: medium;
+    top: 1px;
+}
+.otherside{
+    border: 2px solid whitesmoke;
+    border-radius: 6px;
+    width: 453px;
+    height: 400px;
+    position: relative;
+    left: 755px;
+    top: 521px;
+    background-color:lightyellow;
+    z-index: -1;
+
+}
+.message{
+    color: darkgreen;
+    margin-top: 40px;
+    margin-left: 60px;
+    font-size: large;
+    font-weight: 600;
+    z-index: -1;
+}
+.first{
+    font-size: small;
+    position: relative;
+    top: 1px;
+    margin-left: 61px;
+    z-index: -1;
+}
+.star1{
+    color: red;
+    position: relative;
+    left: -3px;
+    top: 5px;
+    
+}
+.star2{
+    color: red;
+    position: relative;
+    left: -3px;
+    top: 5px;
+}
+.star3{
+    color: red;
+    position: relative;
+    left: -3px;
+    top: 5px;
+}
+.star4{
+    color: red;
+    position: relative;
+    left: -3px;
+    top: 5px;
+}
+
+.form1{
+   
+    margin-left: 61px;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    width: 300px;
+    z-index: -1;
+}
+.phone{
+    margin-top: 40px;
+    margin-left: 61px;
+    top: 3px;
+    position: relative;
+    font-size: small;
+    z-index: -1;
+
+}
+.form2{
+    margin-left: 61px;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    width: 300px;
+    z-index: -1;
+}
+.email{
+    margin-top: 90px;
+    margin-left: 61px;
+    font-size: small;
+    z-index: -1;  
+}
+.form3{
+    margin-left: 61px;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    width: 300px;
+    z-index: -1;
+
+}
+.textarea{
+    margin-top: 40px;
+    margin-left: 61px;
+    font-size: small;
+    z-index: -1;
+
+}
+.form4{
+    margin-left: 61px;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    width: 300px;
+    height: 66px;
+    z-index: -1;
+}
+.sendmsg{
+    position: relative;
+    background-color: orange;
+    left: 64px;
+    border-radius: 4px;
+    color: white;
+    top: 0px;
+    width: 118px;
+    height: 30px;
+    border: 1px solid white;
+    z-index: -1;
+}
+.rights{
+    border: 2px solid lightcoral;
+    border-radius: 5px;
+    width: 902px;
+    height: 50px;
+    position: relative;
+    top: 593px;
+    left: 309px;
+    background-color: lightcoral;
+    z-index: -1;
+}
+.reserved{
+    text-align: center;
+    font-size: larger;
+    z-index: -1;
+}
+.bars{
+   
+    height: 0px;
+    width: 0px;
+}
+
+
+/* motorola */
+@media screen and (min-width:360px) and ( max-width:760px) {
+    .one{
+        position: relative;
+        height: 300px;
+        left: -309px;
+        width: 1436px;
+        background-color: darksalmon;
+
+    }
+    .two{
+        font-size:  101px;
+        position: relative;
+        top: -11px;
+        color: darkgreen;
+        margin-top: 108px;
+        padding-left: 81px;
+    }.three{
+        display: none;
+    }
+    .four{
+        display: none;
+    }
+    .five{
+        display: none;
+    }
+    .six{
+        display: none;
+    }
+    .seven{
+        display: none;
+    }
+    .bars{
+        font-size: 30px;
+        color: black;
+        position: relative;
+        top: -222px;
+    }
+    .a{
+        width: 1438px;
+        height: 2174px;
+        position: relative;
+        left: -313px;
+        background-color: darkgreen;
+        border: 2px solid green;
+
+    }
+   
+    .c{
+        font-size: 118px;  
+        position: relative;
+        left: 20px;
+        color: blue;
+    }
+    .d{
+        font-size: 116px;
+        position: relative;
+        left: 20px;
+        bottom: 43px;
+        color: deeppink;
+    }
+    .e{
+        font-size: 71px;
+        color: white;
+        position: relative;
+        left: 48px;
+        
+    }
+    .f{
+        width: 526px;
+        height: 136px;
+        border-radius: 31px;
+        left: 63px;
+        font-style: normal;
+        position: relative;
+        font-size: 62px;
+        border: 3px solid skyblue;
+        color: white;
+        background-color: skyblue;
+        
+    }
+    .g{
+        width: 526px;
+        height: 136px;
+        border-radius: 31px;
+        left: 165px;
+        font-style: normal;
+        position: relative;
+        font-size: 50px;
+        background-color: orange;
+        color: white;
+    }
+    .h{
+        width: 1182px;
+        height: 1180px;
+        position: relative;
+        top: 78px;
+        left: 280px;
+
+    }
+    .me{
+        width: 1429px;
+        height: 1914px;
+        position: relative;
+        left: -8px;
+        top: 125px;
+        border:10px solid whitesmoke;
+
+    }
+
+    .pic{
+        position: relative;
+        top: 1994px;
+        width: 1071px;
+        height: 832px;
+        left: 355px;
+
+    }
+    .main{
+        position: relative;
+        bottom: 851px;
+        font-size: 148px;
+        left: 85px;
+        color: darkgreen;
+
+    }
+    .underline{
+        position: relative;
+        bottom: 967px;
+        width: 669px;
+        left: 86px;
+        height: 15px;
+        border: 2px solid orange;
+        background-color: orange;
+
+    }
+    .myself{ 
+        position: relative;
+        left: 28px;
+        bottom: 965px;
+        font-size: 80px;
+        color: green;
+
+    }
+    .second{
+        position: relative;
+        left: 28px;
+        bottom: 1003px;
+        font-size: 80px;
+        color: green;
+    }
+    .libraries{
+        width: 1243px;
+        height: 482px;
+        bottom: 326px;
+        left: 104px;
+        border: 10px solid whitesmoke;
+        position: relative;
+        border-radius: 73px;
+        background-color: white;
+    }
+    .languages{
+        font-size: 67px;
+        color: darkgreen;
+    }
+    .horizontal{
+        display: block;
+    }
+    .fa-html5{
+        font-size: 150px;
+        color: red;
+        position: relative;
+        left: 30px;
+        top: 30px;
+        
+    }
+    .fa-css3-alt{
+        font-size: 150px;
+        position: relative;
+        left: 120px;
+        top: 30px;
+        color: blue;
+    }
+    .fa-js{
+        font-size: 150px;
+        position: relative;
+        left: 210px;
+        top: 30px;
+
+    }
+    .fa-github-square{
+        font-size: 150px;
+        position: relative;
+        left: 300px;
+        top: 30px;
+
+    }
+    .fa-react{
+        font-size: 150px;
+        position: relative;
+        left: 410px;
+        top: 30px;
+    }
+    .portfolio{
+        display: none;
+    }
+    .resumehead{
+        position: relative;
+        font-size: 146px;
+        top: -419px;
+        text-align: center;
+        color: darkgreen;
+
+    }
+    .bottomline{
+        position: relative;
+        top: -538px;
+        width: 513px;
+        left: 469px;
+        height: 15px;
+        border: 2px solid orange;
+        background-color: orange;
+
+    }
+    
+    .education{
+        position: relative;
+        top: 695px;
+        font-size: 108px;
+        color: darkgreen;
+
+    }
+    .semiline{
+        position: relative;
+        width: 1443px;
+        color: black;
+        right: 15px;
+        top: 598px;
+        height: 5px;
+        background-color: whitesmoke;
+
+    }
+    .dot{
+        height: 48px;
+        width: 48px;
+        background-color:lightgreen;
+        border-radius: 50%;
+        position: relative;
+        left: 9px;
+        top: 648px;
+        z-index: -1;
+    }
+    .college{
+        position: relative;
+        color: darkgreen;
+        left: 73px;
+        top: 526px;
+        font-size: 63px;
+    }
+    .years{
+        position: relative;
+        background-color: orange;
+        border: 2px solid orange;
+        border-radius: 54px;
+        top: 548px;
+        width: 432px;
+        height: 104px;
+        left: 164px;
+    }
+    .year{
+        color:brown;
+        position: relative;
+        left: 235px;
+        top: 399px;
+        font-size: 64px;
+
+    }
+    .btech{
+        position: relative;
+        color: green;
+        top: 388px;
+        left: 90px;
+        font-size: 61px;
+    }
+    /* .part2{
+        border: 10px solid whitesmoke;
+        top: -635px;
+        border-radius: 44px;
+        position: relative;
+    
+    } */
+    .rightman{
+        position: relative;
+        top: 1476px;
+        left: 185px;
+        width: 1118px;
+        height: 1025px;
+    }
+    .icons{
+        position: relative;
+        border-radius: 44px;
+        border: 10px solid whitesmoke;
+        width: 1407px;
+        height: 236px;
+        top: 1482px;
+        left: 2px;
+
+    }
+    .fa-facebook-f{
+        position: relative;
+        font-size: 130px;
+        left: 100px;
+        margin-top: 80px;
+
+    }
+    .fa-instagram{
+        position: relative;
+        font-size: 130px;
+        left: 240px;
+        margin-top: 80px;
+
+    }
+    .fa-linkedin{
+        position: relative;
+        font-size: 130px;
+        left: 400px;
+        margin-top: 80px;
+
+
+    }
+    .fa-pinterest-square{
+        position: relative;
+        font-size: 130px;
+        left: 550px;
+        margin-top: 80px;
+
+
+    }
+    .fa-twitter-square{
+        position: relative;
+        font-size: 130px;
+        left: 690px;
+        margin-top: 80px;
+
+
+    }
+
+    .peoplesay{
+        font-size: 29px;
+        /* position: relative; */
+        top: 2361px;
+        /* left: 400px; */
+
+    }
+    .downline{
+        width: 357px;
+        position: relative;
+        left: 390px;
+        height: 32px;
+        top: 2374px;
+        background-color: orange;
+        border: 2px solid orange;
+
+    }
+    .box{
+        position: relative;
+        top: 2449px;
+        width: 724px;
+        left: 253px;
+
+    }
+    .opinion{
+        position: relative;
+        width: 3448px;
+        left: -112px;
+    }
+    .testimonal{
+        position: relative;
+        left: -271px;
+        height: 257px;
+        width: 1429px;
+        border: 3px solid lightgoldenrodyellow;
+        background-color: lightgoldenrodyellow;
+    }
+    .view{
+        position: relative;
+        font-size: 88px;
+        color: orange;
+        text-align: center;
+        bottom: 247px;
+
+    }
+    .fa-arrow-right{
+        position: relative;
+        font-size: 82px;
+        bottom: 421px;
+        left: 711px;
+        color: orange;
+    }
+    .contact{
+        position: relative;
+        top: 3950px;
+        left: 480px;
+        text-align: center;
+        font-size: 58px;
+        color: darkgreen;
+
+    }
+    .belowline{
+        position: relative;
+        border: 4px solid orange;
+        width: 400px;
+        background-color: orange;
+        height: 15px;
+        left: 449px;
+        top: 3912px;
+    }
+    .contactme{
+        position: relative;
+        top: 3948px;
+        width: 1429px;
+        left: -5px;
+        border: 3px solid whitesmoke;
+        background-color: white;
+        height: 1219px;
+
+    }
+    .connect{
+        color: darkgreen;
+        font-size: 79px;
+        font-weight: 700;
+        position: relative;
+        left: 47px;
+        top: 52px;
+    }
+    .texts{
+        position: relative;
+        left: 40px;
+        color: brown;
+        font-size: 46px;
+    }
+    .fa-envelope{
+        font-size: 115px;
+
+    }
+    .pooja{
+        position: relative;
+        left: 211px;
+        color: black;
+        top: -68px;
+        font-size: 68px;
+    }
+    .fa-phone-square-alt{
+        font-size: 128px;
+        position: relative;
+        top: -52px;
+
+    }
+    .number{
+        position: relative;
+        left: 204px;
+        font-size: 68px;
+        top: -218px;
+
+    }
+    .fa-map-marker-alt{
+        font-size: 119px;
+        position: relative;
+        top: -189px;
+
+    }
+    .location{
+        position: relative;
+        left: 196px;
+        color: black;
+        font-size: 66px;
+        top: -352px;
+        
+    }
+    .otherside{
+        position: relative;
+        border: 2px solid wheat;
+        width: 1433px;
+        height: 1295px;
+        left: -7px;
+        top: 4059px;
+    }
+    .message{
+        color: darkgreen;
+        margin-top: 68px;
+        font-size: 72px;
+        margin-left: 90px;
+
+    }
+    .first{
+        position: relative;
+        top: -11px;
+        font-size: 55px;
+        left: 32px;
+
+    }
+    .star1{
+        position: relative;
+        left: 30px;
+        font-size: 63px;
+
+    }
+    .form1{
+        position: relative;
+        top: 1px;
+        width: 1273px;
+        left: 31px;
+        height: 85px;
+        border: 4px solid whitesmoke;
+
+    }
+    .phone{
+        position: relative;
+        font-size: 55px;
+        left: 42px;
+        top: 30px;
+
+    }
+    .star2{
+        position: relative;
+        left: 43px;
+        top: 42px;
+        font-size: 63px;
+
+    }
+    .form2{
+        position: relative;
+        top: 30px;
+        width: 1273px;
+        left: 31px;
+        height: 85px;
+        border: 4px solid whitesmoke;
+
+    }
+    .email{
+        position: relative;
+        font-size: 55px;
+        left: 42px;
+        top: 58px;
+
+    }
+    .star3{
+        position: relative;
+        left: 43px;
+        top: 78px;
+        font-size: 63px;
+
+    }
+    .form3{
+        position: relative;
+        top: 80px;
+        width: 1273px;
+        left: 31px;
+        height: 85px;
+        border: 4px solid whitesmoke;
+
+    }
+    .textarea{
+        position: relative;
+        font-size: 55px;
+        left: 42px;
+        top: 75px;
+
+    }
+    .star4{
+        position: relative;
+        left: 43px;
+        top: 90px;
+        font-size: 63px;
+
+    }
+    .form4{
+        position: relative;
+        top: 98px;
+        width: 1273px;
+        left: 31px;
+        height: 85px;
+        border: 4px solid whitesmoke;
+
+    }
+    .sendmsg{
+        position: relative;
+        background-color: orange;
+        width: 400px;
+        height: 72px;
+        top: 179px;
+        left: 98px;
+        font-size: 41px;
+        color: white;
+
+    }
+    .rights{
+        position: relative;
+        top: 4274px;
+        width: 1441px;
+        left: -9px;
+        height: 179px;
+        color: white;
+        font-size: xxx-large;
+    }
+}
+
+
